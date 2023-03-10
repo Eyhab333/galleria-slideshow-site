@@ -1,0 +1,18 @@
+{
+  "name": "galleria-slideshow-site",
+  "version": "1.0.0",
+  "description": "This is a solution to the [Galleria slideshow site challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/galleria-slideshow-site-tEA4pwsa6). Frontend Mentor challenges help you improve your coding skills by building realistic projects.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "gulp-livereload": "^4.0.2",
+    "static-server": "^2.2.1"
+  }
+}
