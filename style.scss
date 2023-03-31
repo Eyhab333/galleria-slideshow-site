@@ -145,6 +145,71 @@ ul {
 
 /*############ for-tablet-portrait-up ##############*/
 @media (min-width: 600px) {
+  header {
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #e5e5e5;
+
+    .logo {
+      height: 32px;
+      width: 113.04000091552734px;
+    }
+
+    a {
+      font-weight: 700;
+      font-size: 9px;
+      line-height: 11px;
+      text-align: right;
+      letter-spacing: 1.92857px;
+      color: #7d7d7d;
+    }
+  }
+
+  main {
+    padding: 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    
+
+    .image-container {
+      position: relative;
+    }
+
+    .text {
+      position: absolute;
+      bottom: 0;
+      height: 170px;
+      width: 100%;
+      background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.0001) 0%,
+        rgba(0, 0, 0, 0.841672) 100%
+      );
+
+      padding: 84px 49px 32px 32px;
+
+      h1,
+      h2 {
+        margin-bottom: 7px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+        color: #ffffff;
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 16px;
+        color: #ffffff;
+        mix-blend-mode: normal;
+        opacity: 0.75;
+      }
+    }
+  }
 }
 // @media (600px <= width <= 899px) {}
 
