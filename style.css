@@ -149,6 +149,7 @@ ul {
     padding: 24px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 50px;
   }
   main .image-container {
     position: relative;
